@@ -7,11 +7,11 @@ public class Main {
         //showMenu();
 
         Doctor myDoctor = new Doctor("Luke", "XR");
-        System.out.println(myDoctor.name);
-        System.out.println(myDoctor.speciality);
+
 
         Patient myPatient = new Patient("Alejandra", "ale@mail.com");
-
+        myPatient.setPhoneNumber("12345678");
+        System.out.println(myPatient.getPhoneNumber());
 
     }
 }
